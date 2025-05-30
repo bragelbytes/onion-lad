@@ -8,19 +8,19 @@ public class MoveController : MonoBehaviour
     [SerializeField] private float jumpForce;
     private float xInput;
 
-    // Testing testing
-
     [Header("Collision Check")]
     [SerializeField] private float groundCheckRadius;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask whatIsGround;
     private bool isGrounded;
 
+    // called once at the beginning
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
+    // called on every frame
     private void Update()
     {
         CollisionChecks();
