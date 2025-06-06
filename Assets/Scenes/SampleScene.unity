@@ -128,8 +128,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 398704687}
-  - component: {fileID: 398704688}
   - component: {fileID: 398704689}
+  - component: {fileID: 398704688}
   - component: {fileID: 398704690}
   - component: {fileID: 398704686}
   - component: {fileID: 398704691}
@@ -257,6 +257,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  isMoving: 0
 --- !u!70 &398704690
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
