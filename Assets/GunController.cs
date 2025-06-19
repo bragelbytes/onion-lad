@@ -55,5 +55,7 @@ public class GunController : MonoBehaviour
 
         GameObject newBullet = Instantiate(bulletPrefab, gun.position, Quaternion.identity);
         newBullet.GetComponent<Rigidbody2D>().linearVelocity = direction.normalized * bulletSpeed;
+
+        Destroy(newBullet, 7);
     }
 }
