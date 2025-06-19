@@ -332,6 +332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunAnim: {fileID: 1846105884}
   gun: {fileID: 1846105882}
+  gunDistance: 1.2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
